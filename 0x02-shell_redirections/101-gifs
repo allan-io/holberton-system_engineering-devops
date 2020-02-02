@@ -1,0 +1,1 @@
+find . -name \*gif -type f -printf %fn | sort -i | rev| cut -c 5- |rev

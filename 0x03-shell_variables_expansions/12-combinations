@@ -1,1 +1,2 @@
 #!/bin/bash
+eval echo $(printf "%s" '{a..z}'{,}) | tr -s ' ' '\n' | grep -v 'oo'
